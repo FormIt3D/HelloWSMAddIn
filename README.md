@@ -1,7 +1,7 @@
 WSM Addin example creating user defined JS commands using WSM C++ APIs.
 ========================
 
-![Main Preview](https://formit3d.github.io/HelloWSMAddIn/preview.png)
+![Main Preview](preview.png)
 
 This is an example of a solution to create and inject JS commands into FormIt.
 
