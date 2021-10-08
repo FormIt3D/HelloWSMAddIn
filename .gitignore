@@ -1,8 +1,6 @@
-FormItSupport
-x64
-.vs
-
-HelloWSMAddIn.vcxproj.user
-
-# Keep dll
-!HelloWSMAddIn.dll
+DLL/FormItSupport
+DLL/FormItSupport_v22
+DLL/FormItSupport_v23
+DLL/x64
+DLL/.vs
+DLL/HelloWSMAddIn.vcxproj.user

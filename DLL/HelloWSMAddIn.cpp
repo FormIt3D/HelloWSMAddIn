@@ -1,9 +1,13 @@
 #include "pch.h"
 
+#pragma warning(disable: 4251)
+
 // If you get this error compiling the solution.
 // C:\Git\HelloWSMAddIn\HelloWSMAddIn.cpp(12, 1) : fatal error C1189 : #error:  "FormItSupport directory not found. Download it from <>"// You did not follow the step to copy the FormItSupport directory
 // to the HelloWSMAddIn directory. You can find the FormItSupport.zip directory in the
 // 'FormItSDK_{$SDKVersion}.zip' file on the ADN web site for FormIt.
+
+#include <sstream>
 
 #if __has_include("FormItSupport/WSMScripting/IScriptInstance.h")
 #include "FormItSupport/WSMScripting/IScriptInstance.h"
@@ -12,10 +16,7 @@
 #endif
 
 #include "JournalingSupport/JournalVariable.h"
-
 #include "FormItCore/include/FormItCoreAPIDLL.h"
-
-#include <sstream>
 
 REGISTERAPIMETHODS
 {
@@ -40,7 +41,7 @@ REGISTERAPIMETHODS
         return to_json(blockID);
     });
 
-    REGISTERNAMESPACE("HelloWSMDLL.WSMUtils")
+    REGISTERNAMESPACE("HelloWSMAddIn.WSMUtils")
 
     APIMETHOD(HelloWSMAddIn.WSMUtils, GetWorldBounds, "")
     {
