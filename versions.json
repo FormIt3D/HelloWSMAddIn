@@ -7,12 +7,21 @@
         "path":"v22_0"
     },
     {
-    "version":{
-        "major":23,
-        "minor":0,
-        "lastVersion":true,
-        "exactVersion":true
+		"version":{
+			"major":23,
+			"minor":0,
+			"lastVersion":true,
+			"exactVersion":true
+		},
+        "path":"v23_0"
     },
-    "path":"v23_0"
+	{
+		"version":{
+			"major":23,
+			"minor":1,
+			"lastVersion":true,
+			"exactVersion":true
+		},
+		"path":"v23_1_0"
     }
 ]
