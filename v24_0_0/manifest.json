@@ -1,0 +1,9 @@
+{
+    "PluginName": "Hello WSM AddIn",
+    "PluginDescription": "Hello WSM AddIn Loads DLLs",
+    "PluginType": "Panel",
+    "Panel": "PLUGINLOCATION/plugin.html",
+    "PanelIcon": "PLUGINLOCATION/plugin.png",
+    "Platforms": ["Windows"],
+    "DLLs" : ["PLUGINLOCATION/HelloWSMAddIn.dll"]
+}

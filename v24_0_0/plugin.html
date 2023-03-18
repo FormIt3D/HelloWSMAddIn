@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HelloWSMAddIn</title>
+    <link href="plugin.css" rel="stylesheet">
+</head>
+<body>
+    <div class="pluginContainer">
+        <h1>HelloWSMAddIn</h1>
+        <p>Create a cuboid of the specified size at the origin.</p>
+        <div>
+            <input id="Width" type=number value =12 />
+            <label>Width</label>
+        </div>
+        <div>
+            <input id="Length" type=number value =12 />
+            <label>Length</label>
+        </div>
+        <div>
+            <input id="Height" type=number value =12 />
+            <label>Height</label>
+        </div>
+        <input id="CreateBlockBtn" type=button value="Create Block" />
+        <!--Do not remove below scripts unless you know what you're doing-->
+        <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/FormIt.js"></script>
+        <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/FormItInterface.js"></script>
+        <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils.js"></script>
+        <script type="text/javascript" src="plugin.js"></script>
+        <script type="text/javascript">
+            FormItInterface.Initialize();
+        </script>
+    </div>
+</body>
+</html>
