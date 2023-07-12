@@ -32,5 +32,15 @@
 		"exactVersion":true
 		},
 		"path":"v24_0_0"
+    },
+	{
+	"version":{
+		"major":24,
+		"minor":1,
+		"lastVersion":true,
+		"exactVersion":true
+		},
+		"path":"v24_1_0"
     }
+
 ]
